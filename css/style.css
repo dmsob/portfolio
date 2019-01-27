@@ -99,9 +99,9 @@ img{
   margin-bottom: 5px;
 }
 .hero-description{
-color: #6a696b;
-font-size: 18px;
-font-weight: 400;
+  color: #6a696b;
+  font-size: 18px;
+  font-weight: 400;
 }
 .hero-social{
   margin-top: 26px;
@@ -233,12 +233,42 @@ font-weight: 400;
   font-size: 20px;
   margin-right: 13px;
 }
-.footer-menu a{
+.footer-menu a {
   display: inline-block;
   font-size: 14px;
   margin-right: 30px;
 }
-
+.oboutme-info {
+/*   border: 1px solid; */
+  display: block;
+  margin-bottom: 167px;
+}
+.oboutme-image {
+  float: left;
+  width: 35%;
+  margin-right: 60px;
+  
+/*   border: 1px solid #8d8d8e; */
+/*   margin-bottom: 167px; */
+ }
+.oboutme-text {
+/*   width: 100%; */
+  text-align: justify;
+  color: #717072;
+  font-size: 12px;
+  line-height: 24px;
+/*   border: 1px solid; */
+}
+.oboutme-title{
+/*   display: block; */
+  color: #2b2a2c;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 15px;
+  text-transform: uppercase;
+  padding-left: 30px;
+/*   border: 1px solid #8d8d8e; */
+}
 @media (max-width: 1200px){
   .container{
     width: 962px;
@@ -247,7 +277,6 @@ font-weight: 400;
     width: 48%;
   }
 }
-
 @media (max-width: 992px){
   .container{
     width: 760px;
