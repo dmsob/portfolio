@@ -1,0 +1,297 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+img{
+  max-width: 100%;
+}
+.container{
+  width: 100%;
+  max-width: 1173px;
+  margin-left: auto;
+  margin-right: auto;  
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+}
+.menu-logo{
+  display: flex;
+  align-items: center;
+}
+.description{
+  margin-left: 9px;
+}
+.name {
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+}
+.avatar{
+  width: 57px;
+  height: 57px;
+  background-color: #2b2a2c;
+  border-radius: 50%;
+  background: url("https://pp.userapi.com/c830509/v830509419/15a81b/YG-44JDodU0.jpg");
+  background-size: 100%;
+}
+.menu-list{
+  display: flex;
+  align-items: center;
+}
+.menu-list a {
+  display: inline-block;
+  line-height: 1;
+  text-decoration: none;
+  color: #2b2a2c;
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-right: 34px;
+  cursor: pointer;
+  position:relative;
+}
+.menu-button{
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #2b2a2c;
+  padding: 13px 22px;
+  outline: none;
+}
+.menu-list a:after {
+    background-color: #2b2a2c;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    left:50%;
+    position:absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+.menu-list a:hover:after,
+.menu-list a:focus:after {
+    width: 100%;
+}
+.hero{
+  padding-top: 112px;
+  padding-bottom: 112px;
+  background: url("https://wmpics.pics/di-CFIR.png") no-repeat right bottom; 
+/*  background: url("https://pp.userapi.com/c5151/u1887523/-6/w_c66ae1b8.jpg") no-repeat right bottom;
+  background-size: 32%;*/
+}
+.hero-subtitle{
+  font-size: 32px;
+}
+.hero-title{
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.hero-description{
+color: #6a696b;
+font-size: 18px;
+font-weight: 400;
+}
+.hero-social{
+  margin-top: 26px;
+}
+.social{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 9px;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  font-size: 25px;
+}
+.behance-bg{
+  background-color: #1869ff;
+}
+.fb-bg {
+  background-color: #3a5898;
+}
+.instagram-bg{
+  background-color: #13578a;
+}
+.vk-bg{
+  background-color: #56acef;
+}
+.hero-buttons{
+  margin-top: 40px;
+}
+.button{
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  border-radius: 50px;
+  background-color: #2b2a2c;
+  padding: 20px 34px;
+  display: inline-block;
+}
+.button-primari{
+  color: #fff;
+  margin-right: 17px;
+  margin-bottom: 10px;
+}
+.button-o{
+  background-color: transparent;
+  border: 1px solid #6a696b;
+  color: #6a696b;
+  
+}
+.projects{
+  padding: 97px 0;
+}
+.project-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.project-card {
+  min-height: 370px;
+  width: 370px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0,0,0,0.25);
+  margin-bottom: 50px;
+}
+.project-card_img{
+  height: 300px;
+}
+.landing-page{
+  background: url("https://ru.amarketsaffiliates.com/wp-content/uploads/2016/06/chto-takoe-lending-peydzh-388x388.jpg") center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.project-category{
+  display: block;
+  font-style: 12px;
+}
+.project-card_info{
+  padding: 19px 13px;
+}
+.project-title{
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+  font-style: 16px;
+}
+.footer{
+  background-color: #2b2a2c;
+  padding: 25px 0;
+  color: #8d8d8e;
+}
+.footer a{
+  color: #8d8d8e;
+  text-decoration: none;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-menu {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.footer-button {
+  color: #8d8d8e;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid #8d8d8e;
+  outline: none;
+  padding: 8px 22px;
+}
+.footer-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright {
+  font-size: 14px;
+  padding-right: 16px;
+  margin-right: 16px;
+  border-right: 1px solid #413f41;
+}
+.footer-social__link {
+  font-size: 20px;
+  margin-right: 13px;
+}
+.footer-menu a{
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 30px;
+}
+
+@media (max-width: 1200px){
+  .container{
+    width: 962px;
+  }
+  .project-card{
+    width: 48%;
+  }
+}
+
+@media (max-width: 992px){
+  .container{
+    width: 760px;
+  }
+  .project-card{
+    width: 48%;
+  }
+}
+@media (max-width: 768px){
+  .description-small{
+    font-size: 10px;
+  }
+  .menu{
+    display: none;
+  }
+  .hero{
+    padding-bottom: 550px;
+    padding-top: 30px;
+  }
+  .container{
+    width: 95%;
+  }
+  .project-card{
+    width: 95%;
+    margin: 30px auto;
+  }
+.copyright {
+  font-size: 10px;
+  padding-right: 5px;
+  margin-right: 10px;
+  border-right: 1px solid #413f41;
+}
+.footer-social__link {
+  font-size: 15px;
+  margin-right: 5px;
+}
+.footer-menu a{
+    font-size: 10px;
+    margin-right: 5px;
+}
+  .footer-button {
+  outline: none;
+  padding: 4px 11px;
+}
+.footer{
+  padding: 12px 0;
+}
