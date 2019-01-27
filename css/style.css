@@ -255,6 +255,37 @@ font-weight: 400;
   .project-card{
     width: 48%;
   }
+  .hero-title{
+  font-size: 25px;
+  }
+  .hero-subtitle{
+    font-size: 20px;
+  }
+  .hero-description{
+    font-size: 15px;
+  }
+.button{
+  font-size: 10px;
+  font-weight: 800;
+  padding: 10px 14px;
+}
+ .hero-social{
+  margin-top: 10px;
+}
+.social{
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 26px;
+  font-size: 15px;
+}
+  .hero{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: url("https://wmpics.pics/di-CFIR.png") no-repeat right bottom; 
+  background-size: cover;
+}
 }
 @media (max-width: 768px){
   .description-small{
@@ -263,9 +294,34 @@ font-weight: 400;
   .menu{
     display: none;
   }
+  .hero-title{
+  font-size: 35px;
+  }
+  .hero-subtitle{
+    font-size: 28px;
+  }
+  .hero-description{
+    font-size: 15px;
+  }
+.button{
+  font-size: 20px;
+  font-weight: 800;
+  padding: 15px 20px;
+}
+ .hero-social{
+  margin-top: 15px;
+}
+.social{
+  width: 40px;
+  height: 40px;
+  margin-right: 9px;
+  line-height: 40px;
+  font-size: 25px;
+}
   .hero{
     padding-bottom: 550px;
     padding-top: 30px;
+    background-size: auto;
   }
   .container{
     width: 95%;
@@ -294,4 +350,5 @@ font-weight: 400;
 }
 .footer{
   padding: 12px 0;
+}
 }
